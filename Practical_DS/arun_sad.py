@@ -7,11 +7,11 @@ nums = [-2,-1]
 # length = len(nums)
 
 i = 0
-max_sum = -9999
+max_sum = nums[0]
 
 
 while i<len(nums):
-	j = i 
+	j = i +1
 	while j<=len(nums):
 		print(f'i : {i}, j : {j}, list : {nums[i:j]}')
 		if j < len(nums):
